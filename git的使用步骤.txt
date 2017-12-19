@@ -1,0 +1,16 @@
+一、向github上传文件： 
+首先注册，登录
+1、首先在git hub里建一个仓库，如：test1; 
+2、然后打开git bash 写命令 pwd，查看当前目录；
+3、git clone test1的url，把建的仓库检出到本地；
+4、在本地test1下建一个excel文件wxy.xls；
+5、先进入 test1,然后git add wxy.xls 添加文件； 
+6、git commit 提交文件；
+7、git push 把文件提交到github里
+8、别人的文件修改了，如果想更新用git pull，在那个项目的目录下，就更新那个项目的文件。
+二、把仓库里的文件删除
+git rm 文件名
+然后 git commit
+再git push 
+就把本地和服务器上的都删除了
+
